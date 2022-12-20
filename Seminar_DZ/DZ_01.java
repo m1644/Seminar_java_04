@@ -51,9 +51,7 @@ public class DZ_01 {
 
     static void lname() {
         Collections.sort(list_lname);
-        System.out.println(list_lname);
-        // Collections.sort(linkedlist);
-        // linkedlist.forEach(j -> System.out.println(list_lname.get(j)+" "+list_fname.get(j)+" "+list_tname.get(j)+". Age: "+list_age.get(j)+", Sex: "+list_sex.get(j)));   
+        System.out.println(list_lname);  
     }
 
     static void putTo(String fio, int age, String gender) {
